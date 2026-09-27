@@ -25,36 +25,40 @@ data preprocessing and feature preparation to model training and evaluation.
 
 ## Dataset Information
 
-* Dataset: Breast Cancer Wisconsin Dataset
-* Total Records: 569
-* Target Variable: Diagnosis
+The project uses the Breast Cancer Wisconsin Dataset.
 
-  * M = Malignant
-  * B = Benign
+### Dataset Details
 
-The dataset contains several numerical features related to cell nuclei characteristics such as:
+- **Records:** 569
+- **Target Variable:** Diagnosis
+- **Classes:**
+  - `M` — Malignant
+  - `B` — Benign
 
-* Radius
-* Texture
-* Perimeter
-* Area
-* Smoothness
-* Compactness
-* Concavity
-* Symmetry
-* Fractal Dimension
+The dataset contains numerical diagnostic features describing characteristics
+of cell nuclei, including:
+
+- Radius
+- Texture
+- Perimeter
+- Area
+- Smoothness
+- Compactness
+- Concavity
+- Symmetry
+- Fractal Dimension
 
 ---
 
 ## Technologies Used
 
-* Python
-* Google Colab
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
+- Python
+- Google Colab
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
 ---
 
@@ -128,6 +132,21 @@ Cancer-Prediction-Using-Machine-Learning/
 * Develop an AI-assisted diagnostic system
 
 ---
+
+## Machine Learning Workflow
+
+1. Load the dataset
+2. Inspect the dataset structure
+3. Analyze missing values
+4. Clean and preprocess the data
+5. Select relevant features
+6. Separate features and target variable
+7. Split the dataset into training and testing sets
+8. Apply feature scaling
+9. Train the Logistic Regression model
+10. Generate predictions
+11. Evaluate model performance
+12. Analyze the classification results
 
 ## Conclusion
 
