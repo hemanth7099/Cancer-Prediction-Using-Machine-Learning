@@ -15,8 +15,12 @@ scikit-learn.
 
 ## Problem Statement
 
-Early detection of breast cancer plays a crucial role in improving patient survival rates. This project aims to build a Machine Learning model capable of accurately classifying tumors as malignant or benign based on diagnostic features.
+The objective of this project is to build a binary classification model that
+predicts whether a tumor is Malignant or Benign based on diagnostic features
+available in the dataset.
 
+The project focuses on applying a complete machine learning workflow, from
+data preprocessing and feature preparation to model training and evaluation.
 ---
 
 ## Dataset Information
