@@ -2,10 +2,15 @@
 
 ## Project Overview
 
-This project focuses on predicting breast cancer diagnosis (Malignant or Benign) using Machine Learning techniques. The model is trained on the Breast Cancer Wisconsin Dataset and uses Logistic Regression for classification.
+This project applies machine learning to classify breast tumor diagnoses as
+Malignant or Benign using the Breast Cancer Wisconsin Dataset.
 
-The objective of this project is to demonstrate how Machine Learning can assist healthcare professionals in early cancer detection and diagnosis by analyzing medical attributes of tumors.
+The project covers data preprocessing, exploratory data analysis, feature
+selection, feature scaling, Logistic Regression model training, prediction,
+and model evaluation using standard classification metrics.
 
+The implementation was developed in Python using Google Colab and
+scikit-learn.
 ---
 
 ## Problem Statement
